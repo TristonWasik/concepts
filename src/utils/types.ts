@@ -39,3 +39,9 @@ type Loading = { status: "loading" };
 type Success = { status: "success"; data: string };
 type Error = { status: "error"; message: string };
 export type Result = Loading | Success | Error;
+export type Task = {
+  id: string;
+  type: "email" | "sms" | "push";
+  payload: unknown;
+};
+export type ValidTask = Task & { payload: { message: string } };
