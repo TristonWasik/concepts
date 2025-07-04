@@ -5,6 +5,6 @@ import { User } from "../utils/types";
  * @param user - The user object to sanitize.
  * @returns A new object with only the name and email properties.
  */
-export function sanitizeObject(user: User) {
-  return {};
+export function sanitizeObject(user: User): Omit<User, "password"> | null {
+  return null;
 }

@@ -6,6 +6,8 @@ import { Role } from "../utils/types";
  * @description Creates a map of roles with their counts initialized to 0.
  * @returns
  */
-export function createRoleMap(roles: Role[]) {
+export function createRoleMap(
+  roles: Role[]
+): Record<Role, number | string | boolean> {
   return { admin: 0, user: "true", guest: true };
 }

@@ -28,8 +28,15 @@ describe("sanitizeObject", () => {
       isAdmin: false,
     };
     const safeUser = sanitizeObject(user);
-    expect("password" in safeUser).toBe(false);
-    expect(Object.keys(safeUser)).not.toContain("password");
-    expect(Object.keys(safeUser)).toEqual(["name", "email", "age", "isAdmin"]);
+    if (safeUser) {
+      expect("password" in safeUser).toBe(false);
+      expect(Object.keys(safeUser)).not.toContain("password");
+      expect(Object.keys(safeUser)).toEqual([
+        "name",
+        "email",
+        "age",
+        "isAdmin",
+      ]);
+    } else throw new Error("sanitizeObject returned null");
   });
 });
