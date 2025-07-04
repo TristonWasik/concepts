@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { User } from "../../src/utils/types";
-import { onlyCertainProperties } from "../../src/1-beginner/types-02";
+import { onlyCertainProperties } from "../../src/1-beginner/07-types-02";
 
 describe("Specific Types", () => {
   it("should return only age and name from user", () => {

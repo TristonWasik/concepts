@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { Animal, Cat, Dog } from "../../src/3-advanced/animal";
+import { Animal, Cat, Dog } from "../../src/3-advanced/01-animal";
 
 describe("Animal classes", () => {
   it("Animal should speak generically", () => {

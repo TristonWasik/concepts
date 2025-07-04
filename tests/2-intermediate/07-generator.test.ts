@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { idGenerator } from "../../src/2-intermediate/generators";
+import { idGenerator } from "../../src/2-intermediate/07-generators";
 
 describe("idGenerator", () => {
   it("should yield incremental IDs", () => {

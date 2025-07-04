@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { asyncFetchData } from "../../src/2-intermediate/fetch";
+import { asyncFetchData } from "../../src/2-intermediate/06-fetch";
 
 describe("fetch", () => {
   it("should fetch data", async () => {

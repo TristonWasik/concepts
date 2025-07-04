@@ -4,7 +4,7 @@
  * @param str - The string to parse as a number.
  * @returns
  */
-export function parseNumber(str: string) {
+export function parseNumber(str: any) {
   if (/^\d+$/.test(str)) {
     return Number(str);
   }

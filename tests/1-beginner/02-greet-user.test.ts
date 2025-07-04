@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { greetUser } from "../../src/1-beginner/greet-user";
+import { greetUser } from "../../src/1-beginner/02-greet-user";
 
 describe("greetUser", () => {
   it("should greet the user with a given name", () => {

@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { getStatusMessage } from "../../src/2-intermediate/status-message";
+import { getStatusMessage } from "../../src/2-intermediate/09-status-message";
 
 describe("getStatusMessage", () => {
   it("should handle loading", () => {

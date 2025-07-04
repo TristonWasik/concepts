@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { mergeArrays } from "../../src/2-intermediate/merge-arrays";
+import { mergeArrays } from "../../src/2-intermediate/08-merge-arrays";
 
 describe("Merge Arrays", () => {
   it("should merge two arrays", () => {

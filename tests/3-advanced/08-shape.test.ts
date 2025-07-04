@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { Circle, Rectangle, Square } from "../../src/3-advanced/shape";
+import { Circle, Rectangle, Square } from "../../src/3-advanced/08-shape";
 
 describe("Shape classes", () => {
   it("Circle should compute area", () => {

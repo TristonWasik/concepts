@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { flattenArray } from "../../src/3-advanced/recursion";
+import { flattenArray } from "../../src/3-advanced/07-recursion";
 
 describe("flattenArray", () => {
   it("should flatten a shallow array", () => {

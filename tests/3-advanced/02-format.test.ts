@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { format } from "../../src/3-advanced/format";
+import { format } from "../../src/3-advanced/02-format";
 
 describe("format", () => {
   it("should format numbers with commas", () => {

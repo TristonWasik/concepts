@@ -1,5 +1,5 @@
 import { describe, it, expect, vi } from "vitest";
-import { SimpleEventEmitter } from "../../src/2-intermediate/events";
+import { SimpleEventEmitter } from "../../src/2-intermediate/05-events";
 
 describe("SimpleEventEmitter", () => {
   it("should call subscribed listeners when emitting", () => {

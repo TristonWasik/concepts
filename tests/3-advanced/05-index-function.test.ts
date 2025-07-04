@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { createIndexFunctions } from "../../src/3-advanced/index-function";
+import { createIndexFunctions } from "../../src/3-advanced/05-index-function";
 
 describe("createIndexFunctions", () => {
   it("should return functions that return correct indexes", () => {

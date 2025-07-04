@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { parseNumber } from "../../src/1-beginner/parse-number";
+import { parseNumber } from "../../src/1-beginner/03-parse-number";
 
 describe("parseNumber", () => {
   it("should return number for valid numeric string", () => {
@@ -14,5 +14,13 @@ describe("parseNumber", () => {
     const result = parseNumber("123");
     expect(typeof result).toBe("number");
     expect(result).toBe(123);
+  });
+
+  it("should return number unchanged", () => {
+    expect(parseNumber(42)).toBe(42);
+  });
+
+  it("should parse numeric string", () => {
+    expect(parseNumber("123")).toBe(123);
   });
 });

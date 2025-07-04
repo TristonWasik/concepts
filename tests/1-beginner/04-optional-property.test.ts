@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { getAgeInYears } from "../../src/1-beginner/optional-property";
+import { getAgeInYears } from "../../src/1-beginner/04-optional-property";
 
 describe("getAgeInYears", () => {
   it("should return age if present", () => {

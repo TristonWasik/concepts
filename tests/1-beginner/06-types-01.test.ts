@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { updateUser } from "../../src/1-beginner/types-01";
+import { updateUser } from "../../src/1-beginner/06-types-01";
 import { User } from "../../src/utils/types";
 
 const user: User = {

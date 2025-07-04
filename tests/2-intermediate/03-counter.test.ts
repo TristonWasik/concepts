@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { Counter } from "../../src/2-intermediate/counter";
+import { Counter } from "../../src/2-intermediate/03-counter";
 
 describe("Counter", () => {
   it("should increment correctly when called externally", () => {

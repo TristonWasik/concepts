@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { getShapeArea } from "../../src/2-intermediate/discriminated-unions";
+import { getShapeArea } from "../../src/2-intermediate/04-discriminated-unions";
 
 describe("getShapeArea", () => {
   it("should compute area of circle", () => {

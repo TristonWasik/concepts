@@ -30,6 +30,8 @@ npm run test:watch
 
 4. Solve the challenges!
 
+**Tip**: There are compilation errors, these should be fixed first.
+
 ## Concepts included
 
 - Utility Types

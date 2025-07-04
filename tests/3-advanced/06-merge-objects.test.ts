@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { mergeObjects } from "../../src/3-advanced/merge-objects";
+import { mergeObjects } from "../../src/3-advanced/06-merge-objects";
 
 describe("mergeObjects", () => {
   it("should merge properties", () => {

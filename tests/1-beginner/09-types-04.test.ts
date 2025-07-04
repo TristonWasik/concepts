@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { sanitizeObject } from "../../src/1-beginner/types-04";
+import { sanitizeObject } from "../../src/1-beginner/09-types-04";
 
 describe("sanitizeObject", () => {
   it("should remove password", () => {

@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { createRoleMap } from "../../src/1-beginner/types-03";
+import { createRoleMap } from "../../src/1-beginner/08-types-03";
 
 describe("createRoleMap", () => {
   it("should have all roles", () => {

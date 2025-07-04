@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { wrapInArray } from "../../src/2-intermediate/array-wrapper";
+import { wrapInArray } from "../../src/2-intermediate/01-array-wrapper";
 
 describe("wrapInArray", () => {
   it("should wrap single item", () => {
