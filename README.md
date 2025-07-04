@@ -48,6 +48,22 @@ npm run test:watch
 - this
 - Generics
 - Function Overloading
+- Function Composition
+- Patterns
+  - adapter
+  - builder
+  - chain of responsibility
+  - decorator
+  - facade
+  - factory
+  - flyweight
+  - observer
+  - proxy
+  - singleton
+  - strategy
+- Race Conditions/Async
+- Recursion
+- Currying
 
 ## Tips
 
