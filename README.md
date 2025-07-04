@@ -30,7 +30,7 @@ npm run test:watch
 
 4. Solve the challenges!
 
-**Tip**: There are compilation errors, these should be fixed first.
+**Note**: There are compilation errors, these should be fixed first.
 
 ## Concepts included
 
@@ -48,3 +48,9 @@ npm run test:watch
 - this
 - Generics
 - Function Overloading
+
+## Tips
+
+- Use the information provided in the tests to determine your inputs and outputs of a function.
+- Don't forget explicit return types.
+- Some methods and functions include JSDoc comments, they can provide context and hints.
