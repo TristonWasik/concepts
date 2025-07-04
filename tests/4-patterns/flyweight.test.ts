@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { Icon } from "../../src/4-patterns/flywheel";
+import { Icon } from "../../src/4-patterns/flyweight";
 
 describe("Flyweight", () => {
   it("should share same SharedData for same type", () => {
